@@ -1,0 +1,611 @@
+[
+  {
+    "id": "gold-loan",
+    "name": "Gold Loan",
+    "lender": "Bank Gold Loan",
+    "originalPrincipal": 3200000,
+    "initialOpeningBalance": 3142124.04,
+    "currentInterestRate": 10.2,
+    "baseEmi": 55000,
+    "startDate": "2026-04-18",
+    "repaymentDay": 18,
+    "status": "active",
+    "notes": "Bank Gold Loan with ₹55,000 monthly base EMI at 10.2% annual interest. Current opening balance as of today: ₹29,68,724.",
+    "rateHistory": [
+      {
+        "id": "gl-rate-1",
+        "rate": 10.2,
+        "effectiveDate": "2026-04-18",
+        "note": "Sanctioned annual interest rate"
+      }
+    ],
+    "extraPayments": [],
+    "historicalInstallments": [
+      {
+        "id": "gold-loan-h-1",
+        "loanId": "gold-loan",
+        "installmentNumber": 1,
+        "date": "2026-04-18",
+        "openingBalance": 3142124.04,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 26708.05,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 28291.95,
+        "closingBalance": 3113832.09,
+        "isProjected": false
+      },
+      {
+        "id": "gold-loan-h-2",
+        "loanId": "gold-loan",
+        "installmentNumber": 2,
+        "date": "2026-05-18",
+        "openingBalance": 3113832.09,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 26467.57,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 28532.43,
+        "closingBalance": 3085299.67,
+        "isProjected": false
+      },
+      {
+        "id": "gold-loan-h-3",
+        "loanId": "gold-loan",
+        "installmentNumber": 3,
+        "date": "2026-06-18",
+        "openingBalance": 3085299.67,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 26225.05,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 28774.95,
+        "closingBalance": 3056524.71,
+        "isProjected": false
+      },
+      {
+        "id": "gold-loan-h-4",
+        "loanId": "gold-loan",
+        "installmentNumber": 4,
+        "date": "2026-07-18",
+        "openingBalance": 3056524.71,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 25980.46,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 29019.54,
+        "closingBalance": 3027505.17,
+        "isProjected": false
+      },
+      {
+        "id": "gold-loan-h-5",
+        "loanId": "gold-loan",
+        "installmentNumber": 5,
+        "date": "2026-08-18",
+        "openingBalance": 3027505.17,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 25733.79,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 29266.21,
+        "closingBalance": 2998238.97,
+        "isProjected": false
+      },
+      {
+        "id": "gold-loan-h-6",
+        "loanId": "gold-loan",
+        "installmentNumber": 6,
+        "date": "2026-09-18",
+        "openingBalance": 2998238.97,
+        "annualInterestRate": 10.2,
+        "monthlyInterest": 25485.03,
+        "isManualInterest": false,
+        "scheduledEmi": 55000,
+        "actualEmiPaid": 55000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 29514.97,
+        "closingBalance": 2968724,
+        "isProjected": false
+      }
+    ]
+  },
+  {
+    "id": "el-1",
+    "name": "EL 1",
+    "lender": "Education Loan Provider",
+    "originalPrincipal": 2100000,
+    "initialOpeningBalance": 1855297.22,
+    "currentInterestRate": 8.9,
+    "baseEmi": 25000,
+    "startDate": "2026-04-18",
+    "repaymentDay": 18,
+    "status": "active",
+    "notes": "Education Loan 1 with ₹25,000 monthly base EMI at 8.9% interest. Current opening balance as of today: ₹17,97,239.",
+    "rateHistory": [
+      {
+        "id": "el1-rate-1",
+        "rate": 8.9,
+        "effectiveDate": "2026-04-18",
+        "note": "Current floating interest rate"
+      }
+    ],
+    "extraPayments": [],
+    "historicalInstallments": [
+      {
+        "id": "el-1-h-1",
+        "loanId": "el-1",
+        "installmentNumber": 1,
+        "date": "2026-04-18",
+        "openingBalance": 1855297.22,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13760.12,
+        "isManualInterest": false,
+        "scheduledEmi": 22918,
+        "actualEmiPaid": 22918,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 9157.88,
+        "closingBalance": 1846139.34,
+        "isProjected": false
+      },
+      {
+        "id": "el-1-h-2",
+        "loanId": "el-1",
+        "installmentNumber": 2,
+        "date": "2026-05-18",
+        "openingBalance": 1846139.34,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13692.2,
+        "isManualInterest": false,
+        "scheduledEmi": 22918,
+        "actualEmiPaid": 22918,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 9225.8,
+        "closingBalance": 1836913.54,
+        "isProjected": false
+      },
+      {
+        "id": "el-1-h-3",
+        "loanId": "el-1",
+        "installmentNumber": 3,
+        "date": "2026-06-18",
+        "openingBalance": 1836913.54,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13623.78,
+        "isManualInterest": false,
+        "scheduledEmi": 22918,
+        "actualEmiPaid": 22918,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 9294.22,
+        "closingBalance": 1827619.32,
+        "isProjected": false
+      },
+      {
+        "id": "el-1-h-4",
+        "loanId": "el-1",
+        "installmentNumber": 4,
+        "date": "2026-07-18",
+        "openingBalance": 1827619.32,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13554.84,
+        "isManualInterest": false,
+        "scheduledEmi": 22918,
+        "actualEmiPaid": 22918,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 9363.16,
+        "closingBalance": 1818256.16,
+        "isProjected": false
+      },
+      {
+        "id": "el-1-h-5",
+        "loanId": "el-1",
+        "installmentNumber": 5,
+        "date": "2026-08-18",
+        "openingBalance": 1818256.16,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13485.4,
+        "isManualInterest": false,
+        "scheduledEmi": 22918,
+        "actualEmiPaid": 22918,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 9432.6,
+        "closingBalance": 1808823.56,
+        "isProjected": false
+      },
+      {
+        "id": "el-1-h-6",
+        "loanId": "el-1",
+        "installmentNumber": 6,
+        "date": "2026-09-18",
+        "openingBalance": 1808823.56,
+        "annualInterestRate": 8.9,
+        "monthlyInterest": 13415.44,
+        "isManualInterest": false,
+        "scheduledEmi": 25000,
+        "actualEmiPaid": 25000,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 11584.56,
+        "closingBalance": 1797239,
+        "isProjected": false
+      }
+    ]
+  },
+  {
+    "id": "thatha-loan",
+    "name": "thatha loan",
+    "lender": "Family (Thatha)",
+    "originalPrincipal": 300000,
+    "initialOpeningBalance": 303923,
+    "currentInterestRate": 10.4,
+    "baseEmi": 0,
+    "startDate": "2026-05-07",
+    "repaymentDay": 7,
+    "status": "closed",
+    "notes": "Historical personal loan from Thatha with manual interest tracking. Fully paid off in August 2026 via ₹2,86,000 extra principal prepayment.",
+    "rateHistory": [
+      {
+        "id": "thatha-rate-1",
+        "rate": 10.4,
+        "effectiveDate": "2026-05-07",
+        "note": "Historical rate (~10.4%)"
+      }
+    ],
+    "extraPayments": [
+      {
+        "id": "thatha-ep-1",
+        "amount": 286000,
+        "date": "2026-08-07",
+        "note": "Final settlement prepayment"
+      }
+    ],
+    "historicalInstallments": [
+      {
+        "id": "thatha-loan-h-1",
+        "loanId": "thatha-loan",
+        "installmentNumber": 1,
+        "date": "2026-05-07",
+        "openingBalance": 303923,
+        "annualInterestRate": 10.4,
+        "monthlyInterest": 2633,
+        "isManualInterest": true,
+        "scheduledEmi": 10104,
+        "actualEmiPaid": 10104,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 7471,
+        "closingBalance": 296452,
+        "isProjected": false
+      },
+      {
+        "id": "thatha-loan-h-2",
+        "loanId": "thatha-loan",
+        "installmentNumber": 2,
+        "date": "2026-06-07",
+        "openingBalance": 296452,
+        "annualInterestRate": 10.4,
+        "monthlyInterest": 2569,
+        "isManualInterest": true,
+        "scheduledEmi": 10104,
+        "actualEmiPaid": 10104,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 7535,
+        "closingBalance": 288917,
+        "isProjected": false
+      },
+      {
+        "id": "thatha-loan-h-3",
+        "loanId": "thatha-loan",
+        "installmentNumber": 3,
+        "date": "2026-07-07",
+        "openingBalance": 288917,
+        "annualInterestRate": 10.4,
+        "monthlyInterest": 2503,
+        "isManualInterest": true,
+        "scheduledEmi": 10104,
+        "actualEmiPaid": 10104,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 7601,
+        "closingBalance": 281316,
+        "isProjected": false
+      },
+      {
+        "id": "thatha-loan-h-4",
+        "loanId": "thatha-loan",
+        "installmentNumber": 4,
+        "date": "2026-08-07",
+        "openingBalance": 281316,
+        "annualInterestRate": 10.4,
+        "monthlyInterest": 2438,
+        "isManualInterest": true,
+        "scheduledEmi": 10104,
+        "actualEmiPaid": 10104,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 286000,
+        "principalReduced": 293666,
+        "closingBalance": 0,
+        "isProjected": false
+      },
+      {
+        "id": "thatha-loan-h-5",
+        "loanId": "thatha-loan",
+        "installmentNumber": 5,
+        "date": "2026-09-07",
+        "openingBalance": 0,
+        "annualInterestRate": 0,
+        "monthlyInterest": 2371,
+        "isManualInterest": true,
+        "scheduledEmi": 10104,
+        "actualEmiPaid": 10104,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 7733,
+        "closingBalance": 0,
+        "isProjected": false
+      }
+    ]
+  },
+  {
+    "id": "athai-loan",
+    "name": "Athai loan",
+    "lender": "Family (Athai)",
+    "originalPrincipal": 328783,
+    "initialOpeningBalance": 328783,
+    "currentInterestRate": 0,
+    "baseEmi": 0,
+    "startDate": "2026-07-01",
+    "repaymentDay": 1,
+    "status": "closed",
+    "notes": "Interest-free family loan from Athai. Fully settled on July 1, 2026 with ₹3,28,783 bullet payment.",
+    "rateHistory": [
+      {
+        "id": "athai-rate-1",
+        "rate": 0,
+        "effectiveDate": "2026-07-01",
+        "note": "Zero interest"
+      }
+    ],
+    "extraPayments": [
+      {
+        "id": "athai-ep-1",
+        "amount": 328783,
+        "date": "2026-07-01",
+        "note": "Full loan payoff"
+      }
+    ],
+    "historicalInstallments": [
+      {
+        "id": "athai-loan-h-1",
+        "loanId": "athai-loan",
+        "installmentNumber": 1,
+        "date": "2026-07-01",
+        "openingBalance": 328783,
+        "annualInterestRate": 0,
+        "monthlyInterest": 0,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 328783,
+        "principalReduced": 328783,
+        "closingBalance": 0,
+        "isProjected": false
+      },
+      {
+        "id": "athai-loan-h-2",
+        "loanId": "athai-loan",
+        "installmentNumber": 2,
+        "date": "2026-08-01",
+        "openingBalance": 0,
+        "annualInterestRate": 0,
+        "monthlyInterest": 0,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 0,
+        "closingBalance": 0,
+        "isProjected": false
+      }
+    ]
+  },
+  {
+    "id": "el-done",
+    "name": "EL done",
+    "lender": "Education Loan (Prior)",
+    "originalPrincipal": 450000,
+    "initialOpeningBalance": 343813,
+    "currentInterestRate": 10,
+    "baseEmi": 0,
+    "startDate": "2026-04-18",
+    "repaymentDay": 18,
+    "status": "closed",
+    "notes": "Prior Education Loan. Cleared with two lump-sum principal payments (₹2,00,000 in April 2026 and ₹1,50,000 in May 2026).",
+    "rateHistory": [
+      {
+        "id": "eldone-rate-1",
+        "rate": 10,
+        "effectiveDate": "2026-04-18",
+        "note": "Sanctioned rate"
+      }
+    ],
+    "extraPayments": [
+      {
+        "id": "eldone-ep-1",
+        "amount": 200000,
+        "date": "2026-04-18",
+        "note": "Prepayment lump sum"
+      },
+      {
+        "id": "eldone-ep-2",
+        "amount": 150000,
+        "date": "2026-05-18",
+        "note": "Final closure lump sum"
+      }
+    ],
+    "historicalInstallments": [
+      {
+        "id": "el-done-h-1",
+        "loanId": "el-done",
+        "installmentNumber": 1,
+        "date": "2026-04-18",
+        "openingBalance": 343813,
+        "annualInterestRate": 10,
+        "monthlyInterest": 2865.11,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 200000,
+        "principalReduced": 197134.89,
+        "closingBalance": 146678.11,
+        "isProjected": false
+      },
+      {
+        "id": "el-done-h-2",
+        "loanId": "el-done",
+        "installmentNumber": 2,
+        "date": "2026-05-18",
+        "openingBalance": 146678.11,
+        "annualInterestRate": 10,
+        "monthlyInterest": 1222.32,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 150000,
+        "principalReduced": 148777.68,
+        "closingBalance": 0,
+        "isProjected": false
+      },
+      {
+        "id": "el-done-h-3",
+        "loanId": "el-done",
+        "installmentNumber": 3,
+        "date": "2026-06-18",
+        "openingBalance": 0,
+        "annualInterestRate": 0,
+        "monthlyInterest": 0,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 0,
+        "closingBalance": 0,
+        "isProjected": false
+      }
+    ]
+  },
+  {
+    "id": "fullerton-p-loan",
+    "name": "Fullerton P loan",
+    "lender": "Fullerton Personal Loan",
+    "originalPrincipal": 330000,
+    "initialOpeningBalance": 0,
+    "currentInterestRate": 12,
+    "baseEmi": 0,
+    "startDate": "2025-01-01",
+    "repaymentDay": 5,
+    "status": "closed",
+    "notes": "Closed personal loan prior to tracker creation. Recorded in Master sheet for full portfolio principal history.",
+    "rateHistory": [
+      {
+        "id": "fullerton-rate-1",
+        "rate": 12,
+        "effectiveDate": "2025-01-01",
+        "note": "Closed loan rate"
+      }
+    ],
+    "extraPayments": [],
+    "historicalInstallments": []
+  },
+  {
+    "id": "others",
+    "name": "Others",
+    "lender": "Other Borrowings",
+    "originalPrincipal": 70000,
+    "initialOpeningBalance": 70000,
+    "currentInterestRate": 0,
+    "baseEmi": 0,
+    "startDate": "2025-07-15",
+    "repaymentDay": 20,
+    "status": "closed",
+    "notes": "Interest-free other personal loan. Fully cleared on July 20, 2026 with ₹70,000 payment.",
+    "rateHistory": [
+      {
+        "id": "others-rate-1",
+        "rate": 0,
+        "effectiveDate": "2025-07-15",
+        "note": "Zero interest"
+      }
+    ],
+    "extraPayments": [
+      {
+        "id": "others-ep-1",
+        "amount": 70000,
+        "date": "2026-07-20",
+        "note": "Full loan clearance"
+      }
+    ],
+    "historicalInstallments": [
+      {
+        "id": "others-h-1",
+        "loanId": "others",
+        "installmentNumber": 1,
+        "date": "2025-07-15",
+        "openingBalance": 70000,
+        "annualInterestRate": 0,
+        "monthlyInterest": 0,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 0,
+        "principalReduced": 0,
+        "closingBalance": 70000,
+        "isProjected": false
+      },
+      {
+        "id": "others-h-2",
+        "loanId": "others",
+        "installmentNumber": 2,
+        "date": "2026-07-20",
+        "openingBalance": 70000,
+        "annualInterestRate": 0,
+        "monthlyInterest": 0,
+        "isManualInterest": false,
+        "scheduledEmi": 0,
+        "actualEmiPaid": 0,
+        "paidStatus": "Yes",
+        "extraAmountPaid": 70000,
+        "principalReduced": 70000,
+        "closingBalance": 0,
+        "isProjected": false
+      }
+    ]
+  }
+]
